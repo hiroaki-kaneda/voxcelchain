@@ -1,26 +1,38 @@
+
 # voxcelchain
 3-D Convolution Neural Network using the Chainer
 
+![conceptual structure ](https://github.com/hiroaki-kaneda/voxcelchain/blob/master/doc/voxcel_chain.png)
+
+
 ## What is VoxcelChain
 VoxcelChain is a three-dimensional shape general object recognition program using deep learning. VoxcelChain is a 3D Convolution Neural Network, which is a feedforward neural network in which two types of layers, a convolution layer and a pooling layer, are alternately stacked.
-
-![conceptual structure ](https://github.com/hiroaki-kaneda/voxcelchain/blob/master/doc/voxcel_chain.png)
 
 ## Installation
 `voxcelchain` is based on [python](https://www.python.org/)
 and [Chainer](http://chainer.org/). Then we also need [CUDA](https://developer.nvidia.com/cuda-downloads).
 
+## Requirements
+This module requires the following modules:
+
+* Python 3.5.2
+* numpy 1.11.2
+* Chainer 1.18.0
+* CUDA V8.0.44
+
+This has been tested on Ubuntu 16.04.
+
 ### Setup CUDA8
 Setup [CUDA](https://developer.nvidia.com/cuda-downloads).
 
-### Installing Python3 & chainer on Ubuntu 16.04
+### Installing Python3 & Chainer on Ubuntu 16.04
 Ubuntu 16.04 ships with Python 3 pre-installed.
 ```sh
 sudo apt-get update
 sudo apt-get -y upgrade
 ```
 
-Install chainer and numpy.
+Install Chainer and numpy.
 ```sh
 sudo apt-get install python3-pip
 sudo pip3 install chainer
