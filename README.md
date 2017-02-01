@@ -81,4 +81,4 @@ There are 200 data for each category. To obtain point cloud data, we rendered ob
 Gazebo is used for 3D simulation. We have simulated the sensor value which has been obtained from actual position in order to attach the sensor to the robot.
 
 ## Link
-For more information, visit our [website](http://bril-tech.blogspot.jp/2017/01/VoxcelChain-3D-Convolutional-Neural-Networks.html).
+For more information, visit our [website](http://bril-tech.blogspot.com/2017/02/VoxcelChain-3D-Convolutional-Neural-Networks.html).
